@@ -1,0 +1,21 @@
+# Datasets (download separately, see README)
+Dataset/
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+detector/
+
+# Extra checkpoints from your own training runs (the shipped model is kept)
+models/*.pt
+!models/best_model.pt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

@@ -1,0 +1,6 @@
+# Versions the shipped model and all scripts were verified with (Python 3.14, CPU).
+# For a CUDA build of PyTorch, install torch/torchaudio from https://pytorch.org first.
+torch==2.15.0
+torchaudio==2.11.1
+soundfile==0.14.0
+numpy==2.5.4
